@@ -1,0 +1,126 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+main .content {
+    width: 600px;
+    margin: 20px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    box-shadow: 10px 10px 25px hsl(252, 100%, 80%);
+    display: flex;
+}
+@media (max-width: 767px) {
+    main .content {
+        width: 375px;
+        flex-direction: column;
+    }
+}
+main .content .left {
+    flex-basis: 50%;
+    padding: 20px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+}
+main .content .left h2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(221, 100%, 96%);
+}
+main .content .left .circle {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0) );
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .content .left .circle .up {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+main .content .left .circle .down {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+    margin-top: 0;
+}
+main .content .left h3 {
+    color:hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+main .content .left p {
+    width: 220px;
+    color: hsl(221, 100%, 96%);
+    line-height: 1.3;
+    margin: 10px auto;
+}
+main .content .right {
+    padding: 20px;
+}
+main .content .right h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+main .content .right .skill {
+    width: 250px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .content .right .skill i {
+    margin-right: 10px;
+}
+main .content .right .skill.reaction {
+    background-color: hsl(0, 100%, 95%)
+}
+main .content .right .skill.reaction .word {
+    color: hsl(0, 100%, 67%);
+}
+main .content .right .skill.memory {
+    background-color: hsl(39, 100%, 95%);
+}
+main .content .right .skill.memory .word {
+    color: hsl(39, 100%, 56%);
+}
+main .content .right .skill.verbal {
+    background-color: hsl(166, 100%, 95%);
+}
+main .content .right .skill.verbal .word {
+    color: hsl(166, 100%, 37%);
+}
+main .content .right .skill.visual {
+    background-color: hsl(234, 85%, 95%);
+}
+main .content .right .skill.visual .word {
+    color: hsl(234, 85%, 45%);
+}
+main .content .right .skill p {
+    color: hsl(224, 30%, 60%);
+    font-weight: 700;
+}
+main .content .right .skill p span {
+    color: hsl(224, 30%, 27%);
+}
+main .content .right a {
+    display: block;
+    width: 250px;
+    margin: 25px auto;
+    padding: 15px 10px;
+    border-radius: 30px;
+    background-color:  hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+main .content .right a:active {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
